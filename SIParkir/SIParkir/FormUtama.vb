@@ -291,7 +291,7 @@ Public Class FormUtama
                     hasil1.Close()
                     Exit Sub
                 End If
-                sql = "insert into tblparkir(no_plat,jenis,user) values ('" & txtPlat.Text.ToUpper & "','" & lblInfoJenis.Text & "','" & pengguna & "')"
+                sql = "insert into tblparkir(no_plat,jenis,user) values ('" & txtPlat.Text.ToUpper & "','" & lblInfoJenis2.Text & "','" & pengguna & "')"
                 If hasil1.IsClosed = False Then
                     hasil1.Close()
                 End If
@@ -312,7 +312,7 @@ Public Class FormUtama
         lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
     End Sub
 
-    Private Sub pnlInput_Paint(sender As Object, e As PaintEventArgs) Handles pnlInput.Paint
 
-    End Sub
+
+
 End Class

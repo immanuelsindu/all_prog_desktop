@@ -73,7 +73,7 @@ Partial Class FormUtama
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SistemToolStripMenuItem, Me.AdminToolStripMenuItem, Me.BantuanToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(622, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(757, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -194,7 +194,7 @@ Partial Class FormUtama
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ColPlat, Me.ColMasuk, Me.Colkeluar, Me.ColHarga, Me.ColJenis, Me.Column6})
         Me.DataGridView1.Location = New System.Drawing.Point(9, 5)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(231, 199)
+        Me.DataGridView1.Size = New System.Drawing.Size(364, 199)
         Me.DataGridView1.TabIndex = 4
         '
         'ColPlat
@@ -255,14 +255,14 @@ Partial Class FormUtama
         Me.pnlPlat.Controls.Add(Me.lblPlat)
         Me.pnlPlat.Location = New System.Drawing.Point(12, 23)
         Me.pnlPlat.Name = "pnlPlat"
-        Me.pnlPlat.Size = New System.Drawing.Size(535, 100)
+        Me.pnlPlat.Size = New System.Drawing.Size(716, 100)
         Me.pnlPlat.TabIndex = 7
         '
         'lblPlat
         '
         Me.lblPlat.AutoSize = True
         Me.lblPlat.Font = New System.Drawing.Font("Microsoft Sans Serif", 40.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPlat.Location = New System.Drawing.Point(117, 14)
+        Me.lblPlat.Location = New System.Drawing.Point(222, 16)
         Me.lblPlat.Name = "lblPlat"
         Me.lblPlat.Size = New System.Drawing.Size(295, 63)
         Me.lblPlat.TabIndex = 1
@@ -343,14 +343,14 @@ Partial Class FormUtama
         Me.pnlGrid.Controls.Add(Me.DataGridView1)
         Me.pnlGrid.Location = New System.Drawing.Point(339, 142)
         Me.pnlGrid.Name = "pnlGrid"
-        Me.pnlGrid.Size = New System.Drawing.Size(249, 210)
+        Me.pnlGrid.Size = New System.Drawing.Size(389, 210)
         Me.pnlGrid.TabIndex = 10
         '
         'FormUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(622, 452)
+        Me.ClientSize = New System.Drawing.Size(757, 452)
         Me.Controls.Add(Me.pnlGrid)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Label5)
