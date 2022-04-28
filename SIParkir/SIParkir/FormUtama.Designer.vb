@@ -59,6 +59,7 @@ Partial Class FormUtama
         Me.lblJenis = New System.Windows.Forms.Label()
         Me.lblInputPlat = New System.Windows.Forms.Label()
         Me.pnlGrid = New System.Windows.Forms.Panel()
+        Me.LaporanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
@@ -98,7 +99,7 @@ Partial Class FormUtama
         '
         'AdminToolStripMenuItem
         '
-        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LanggananToolStripMenuItem, Me.LaporanToolStripMenuItem})
+        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LanggananToolStripMenuItem, Me.LaporanToolStripMenuItem, Me.LaporanToolStripMenuItem1})
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
         Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.AdminToolStripMenuItem.Text = "Admin"
@@ -346,6 +347,12 @@ Partial Class FormUtama
         Me.pnlGrid.Size = New System.Drawing.Size(389, 210)
         Me.pnlGrid.TabIndex = 10
         '
+        'LaporanToolStripMenuItem1
+        '
+        Me.LaporanToolStripMenuItem1.Name = "LaporanToolStripMenuItem1"
+        Me.LaporanToolStripMenuItem1.Size = New System.Drawing.Size(192, 22)
+        Me.LaporanToolStripMenuItem1.Text = "Laporan"
+        '
         'FormUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -419,4 +426,5 @@ Partial Class FormUtama
     Friend WithEvents ColHarga As DataGridViewTextBoxColumn
     Friend WithEvents ColJenis As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents LaporanToolStripMenuItem1 As ToolStripMenuItem
 End Class

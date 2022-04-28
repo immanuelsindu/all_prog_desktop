@@ -13,7 +13,7 @@ Public Class FormUtama
         Else
             myCommand.CommandText = sql
         End If
-        myDataReader = myCommand.ExecuteReader
+        myDataReader = myCommand.ExecuteReader()
         If myDataReader.HasRows Then
             While myDataReader.Read()
                 DataGridView1.Rows.Add()
@@ -312,7 +312,9 @@ Public Class FormUtama
         lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
     End Sub
 
-
-
-
+    Private Sub LaporanToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles LaporanToolStripMenuItem1.Click
+        Dim frmLap As New frmLaporan
+        frmLap.Show()
+        Me.Hide()
+    End Sub
 End Class
