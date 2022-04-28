@@ -1,0 +1,17 @@
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\bin\Debug\net6.0-windows\Pengamatan_2.exe
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\bin\Debug\net6.0-windows\Pengamatan_2.deps.json
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\bin\Debug\net6.0-windows\Pengamatan_2.runtimeconfig.json
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\bin\Debug\net6.0-windows\Pengamatan_2.dll
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\bin\Debug\net6.0-windows\ref\Pengamatan_2.dll
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\bin\Debug\net6.0-windows\Pengamatan_2.pdb
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.Form1.resources
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.AssemblyInfoInputs.cache
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.AssemblyInfo.vb
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.dll
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\ref\Pengamatan_2.dll
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.pdb
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.genruntimeconfig.cache
+C:\Users\Sindu\source\repos\Pengamatan_2\Pengamatan_2\obj\Debug\net6.0-windows\Pengamatan_2.vbproj.AssemblyReference.cache

@@ -1,0 +1,17 @@
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\bin\Debug\net6.0-windows\NotepadKu.exe
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\bin\Debug\net6.0-windows\NotepadKu.deps.json
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\bin\Debug\net6.0-windows\NotepadKu.runtimeconfig.json
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\bin\Debug\net6.0-windows\NotepadKu.dll
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\bin\Debug\net6.0-windows\NotepadKu.pdb
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.Form1.resources
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.AssemblyInfoInputs.cache
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.AssemblyInfo.vb
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.dll
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\refint\NotepadKu.dll
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.pdb
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\NotepadKu.genruntimeconfig.cache
+C:\Users\Sindu\source\repos\NotepadKu\NotepadKu\obj\Debug\net6.0-windows\ref\NotepadKu.dll

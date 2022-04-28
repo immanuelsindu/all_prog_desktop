@@ -1,0 +1,17 @@
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\bin\Debug\net6.0-windows\LatJackpot.exe
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\bin\Debug\net6.0-windows\LatJackpot.deps.json
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\bin\Debug\net6.0-windows\LatJackpot.runtimeconfig.json
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\bin\Debug\net6.0-windows\LatJackpot.dll
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\bin\Debug\net6.0-windows\ref\LatJackpot.dll
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\bin\Debug\net6.0-windows\LatJackpot.pdb
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.Form1.resources
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.AssemblyInfoInputs.cache
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.AssemblyInfo.vb
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.dll
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\ref\LatJackpot.dll
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.pdb
+C:\Users\Sindu\source\repos\LatJackpot\LatJackpot\obj\Debug\net6.0-windows\LatJackpot.genruntimeconfig.cache

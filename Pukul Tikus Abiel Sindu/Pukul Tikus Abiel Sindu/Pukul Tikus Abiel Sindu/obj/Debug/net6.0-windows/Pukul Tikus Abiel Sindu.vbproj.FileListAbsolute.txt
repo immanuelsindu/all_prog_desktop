@@ -1,0 +1,51 @@
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.exe
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.deps.json
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.runtimeconfig.json
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.pdb
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul_Tikus_Abiel_Sindu.Form1.resources
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.AssemblyInfoInputs.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.AssemblyInfo.vb
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\refint\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.pdb
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.genruntimeconfig.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\ref\Pukul Tikus Abiel Sindu.dll
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.exe
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.deps.json
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.runtimeconfig.json
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.dll
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.pdb
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.AssemblyReference.cache
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul_Tikus_Abiel_Sindu.Form1.resources
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.GenerateResource.cache
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.AssemblyInfoInputs.cache
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.AssemblyInfo.vb
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.CoreCompileInputs.cache
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.dll
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\refint\Pukul Tikus Abiel Sindu.dll
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.pdb
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.genruntimeconfig.cache
+C:\Users\salah\Downloads\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\ref\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.exe
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.deps.json
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.runtimeconfig.json
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\bin\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.pdb
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul_Tikus_Abiel_Sindu.Form1.resources
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.AssemblyInfoInputs.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.AssemblyInfo.vb
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\refint\Pukul Tikus Abiel Sindu.dll
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.pdb
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\Pukul Tikus Abiel Sindu.genruntimeconfig.cache
+C:\Users\Sindu\source\repos\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\Pukul Tikus Abiel Sindu\obj\Debug\net6.0-windows\ref\Pukul Tikus Abiel Sindu.dll

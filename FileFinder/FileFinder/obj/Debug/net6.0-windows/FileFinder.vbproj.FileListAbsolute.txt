@@ -1,0 +1,17 @@
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\bin\Debug\net6.0-windows\FileFinder.exe
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\bin\Debug\net6.0-windows\FileFinder.deps.json
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\bin\Debug\net6.0-windows\FileFinder.runtimeconfig.json
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\bin\Debug\net6.0-windows\FileFinder.dll
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\bin\Debug\net6.0-windows\FileFinder.pdb
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.Form1.resources
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.AssemblyInfoInputs.cache
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.AssemblyInfo.vb
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.dll
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\refint\FileFinder.dll
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.pdb
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\FileFinder.genruntimeconfig.cache
+C:\Users\Sindu\source\repos\FileFinder\FileFinder\obj\Debug\net6.0-windows\ref\FileFinder.dll

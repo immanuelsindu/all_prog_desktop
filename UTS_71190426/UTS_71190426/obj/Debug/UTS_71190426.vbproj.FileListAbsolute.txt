@@ -1,0 +1,14 @@
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\bin\Debug\UTS_71190426.exe.config
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\bin\Debug\UTS_71190426.exe
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\bin\Debug\UTS_71190426.pdb
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\bin\Debug\UTS_71190426.xml
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.Form1.resources
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.Resources.resources
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.exe
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.xml
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.pdb
+C:\Users\Sindu\source\repos\UTS_71190426\UTS_71190426\obj\Debug\UTS_71190426.Form2.resources
