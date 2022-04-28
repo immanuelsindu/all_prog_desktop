@@ -1,8 +1,8 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Module ModuleDB
-    Public pengguna As String = "anton"
-    Public ppassword As String = "anton"
+    Public pengguna As String = "sindu"
+    Public ppassword As String = "sindu"
 
     Public myStrCon As MySqlConnectionStringBuilder = New MySqlConnectionStringBuilder()
     Public myConn As MySqlConnection

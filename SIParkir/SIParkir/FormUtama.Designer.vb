@@ -363,9 +363,10 @@ Partial Class FormUtama
         Me.Controls.Add(Me.pnlInput)
         Me.KeyPreview = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.MaximizeBox = False
         Me.Name = "FormUtama"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FormUtama"
+        Me.Text = "Parkir System v.1.0"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

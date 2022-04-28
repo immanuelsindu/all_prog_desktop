@@ -20,15 +20,24 @@ Public Class LoginForm
             myDataReader.Close()
             pengguna = txtUsername.Text
             ppassword = txtPassword.Text
-            FormUtama.lblInfoUser.Text = "Informasi - (User: " & pengguna & ")"
-            FormUtama.lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
-            FormUtama.RefreshGrid()
-            FormUtama.HitungJumlah()
-            FormUtama.Show()
-            Me.Hide()
+
+            'memanggil formUtama
+            setFormUtama()
+
+            'FormUtama.lblInfoUser.Text = "Informasi - (User: " & pengguna & ")"
+            'FormUtama.lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
+            'FormUtama.RefreshGrid()
+            'FormUtama.HitungJumlah()
+            'FormUtama.Show()
+            'Me.Hide()
+            'Me.Text = "Login berhasil"
+
+
+
         Else
             MsgBox("Username / Password salah!")
         End If
+
         If myDataReader.IsClosed = False Then
             myDataReader.Close()
         End If
@@ -38,11 +47,19 @@ Public Class LoginForm
         CreateConnection()
     End Sub
 
-
-
-    Private Sub Login_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyDown
+    Private Sub LoginForm_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
         If e.KeyCode = Keys.Return Then
             btnLogin.PerformClick()
+
         End If
     End Sub
+
+    Private Function setFormUtama()
+        FormUtama.lblInfoUser.Text = "Informasi - (User: " & pengguna & ")"
+        FormUtama.lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
+        FormUtama.RefreshGrid()
+        FormUtama.HitungJumlah()
+        FormUtama.Show()
+        Me.Hide()
+    End Function
 End Class
