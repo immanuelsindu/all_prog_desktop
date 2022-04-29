@@ -106,3 +106,7 @@ C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\ru\Microsoft.ReportViewe
 C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Sindu\source\repos\SIParkir\SIParkir\obj\Debug\SIParkir.frmLaporan.resources
+C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\DataSet1.xsd
+C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\DataSet1.Designer.vb
+C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\DataSet1.xsc
+C:\Users\Sindu\source\repos\SIParkir\SIParkir\bin\Debug\DataSet1.xss

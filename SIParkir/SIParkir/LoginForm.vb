@@ -23,17 +23,6 @@ Public Class LoginForm
 
             'memanggil formUtama
             setFormUtama()
-
-            'FormUtama.lblInfoUser.Text = "Informasi - (User: " & pengguna & ")"
-            'FormUtama.lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
-            'FormUtama.RefreshGrid()
-            'FormUtama.HitungJumlah()
-            'FormUtama.Show()
-            'Me.Hide()
-            'Me.Text = "Login berhasil"
-
-
-
         Else
             MsgBox("Username / Password salah!")
         End If

@@ -34,12 +34,12 @@ Partial Class frmLaporan
         Me.ReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.ServerReport.BearerToken = Nothing
-        Me.ReportViewer1.Size = New System.Drawing.Size(648, 290)
+        Me.ReportViewer1.Size = New System.Drawing.Size(800, 246)
         Me.ReportViewer1.TabIndex = 0
         '
         'btnLaporan
         '
-        Me.btnLaporan.Location = New System.Drawing.Point(60, 311)
+        Me.btnLaporan.Location = New System.Drawing.Point(59, 275)
         Me.btnLaporan.Name = "btnLaporan"
         Me.btnLaporan.Size = New System.Drawing.Size(75, 23)
         Me.btnLaporan.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class frmLaporan
         '
         'btnTutup
         '
-        Me.btnTutup.Location = New System.Drawing.Point(464, 311)
+        Me.btnTutup.Location = New System.Drawing.Point(648, 275)
         Me.btnTutup.Name = "btnTutup"
         Me.btnTutup.Size = New System.Drawing.Size(75, 23)
         Me.btnTutup.TabIndex = 1
@@ -59,11 +59,12 @@ Partial Class frmLaporan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(648, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 333)
         Me.Controls.Add(Me.btnTutup)
         Me.Controls.Add(Me.btnLaporan)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Name = "frmLaporan"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmLaporan"
         Me.ResumeLayout(False)
 

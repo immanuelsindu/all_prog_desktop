@@ -30,6 +30,7 @@ Partial Class FormUtama
         Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LanggananToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LaporanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.BantuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BantuanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -59,7 +60,6 @@ Partial Class FormUtama
         Me.lblJenis = New System.Windows.Forms.Label()
         Me.lblInputPlat = New System.Windows.Forms.Label()
         Me.pnlGrid = New System.Windows.Forms.Panel()
-        Me.LaporanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
@@ -115,6 +115,12 @@ Partial Class FormUtama
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
         Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
         Me.LaporanToolStripMenuItem.Text = "Laporan Pendapatan"
+        '
+        'LaporanToolStripMenuItem1
+        '
+        Me.LaporanToolStripMenuItem1.Name = "LaporanToolStripMenuItem1"
+        Me.LaporanToolStripMenuItem1.Size = New System.Drawing.Size(192, 22)
+        Me.LaporanToolStripMenuItem1.Text = "Laporan"
         '
         'BantuanToolStripMenuItem
         '
@@ -346,12 +352,6 @@ Partial Class FormUtama
         Me.pnlGrid.Name = "pnlGrid"
         Me.pnlGrid.Size = New System.Drawing.Size(389, 210)
         Me.pnlGrid.TabIndex = 10
-        '
-        'LaporanToolStripMenuItem1
-        '
-        Me.LaporanToolStripMenuItem1.Name = "LaporanToolStripMenuItem1"
-        Me.LaporanToolStripMenuItem1.Size = New System.Drawing.Size(192, 22)
-        Me.LaporanToolStripMenuItem1.Text = "Laporan"
         '
         'FormUtama
         '
