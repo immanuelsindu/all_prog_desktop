@@ -1,0 +1,13 @@
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\bin\Debug\TCPServer.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.Form1.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.Resources.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPServer\TCPServer\obj\Debug\TCPServer.pdb

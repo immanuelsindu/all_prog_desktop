@@ -1,0 +1,13 @@
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\bin\Debug\UDPClient.exe.config
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\bin\Debug\UDPClient.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\bin\Debug\UDPClient.pdb
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\bin\Debug\UDPClient.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.Form1.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.Resources.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPClient\UDPClient\obj\Debug\UDPClient.pdb

@@ -1,0 +1,13 @@
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\bin\Debug\TCPClien.exe.config
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\bin\Debug\TCPClien.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\bin\Debug\TCPClien.pdb
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\bin\Debug\TCPClien.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.Form1.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.Resources.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\TCPClien\TCPClien\obj\Debug\TCPClien.pdb

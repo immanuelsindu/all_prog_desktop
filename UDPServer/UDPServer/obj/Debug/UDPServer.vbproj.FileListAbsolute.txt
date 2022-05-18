@@ -1,0 +1,13 @@
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\bin\Debug\UDPServer.exe.config
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\bin\Debug\UDPServer.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\bin\Debug\UDPServer.pdb
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\bin\Debug\UDPServer.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.Form1.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.Resources.resources
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.exe
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.xml
+C:\Users\Sindu\source\repos\TAS_Progdesk\UDPServer\UDPServer\obj\Debug\UDPServer.pdb
