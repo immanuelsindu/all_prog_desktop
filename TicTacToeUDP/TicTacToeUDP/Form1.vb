@@ -255,31 +255,43 @@ Public Class Form1
 
     'untuk observer di sisi server
     Public Sub serverThread()
-        Dim udpClient As New UdpClient(8083)
-        While True
-            Dim RemoteIpEndPoint As New IPEndPoint(IPAddress.Any, 0)
-            Dim receiveBytes As Byte()
-            receiveBytes = udpClient.Receive(RemoteIpEndPoint)
-            Dim returnData As String = Encoding.ASCII.GetString(receiveBytes)
+        Try
+            Dim udpClient As New UdpClient(8083)
+            While True
+                Dim RemoteIpEndPoint As New IPEndPoint(IPAddress.Any, 0)
+                Dim receiveBytes As Byte()
+                receiveBytes = udpClient.Receive(RemoteIpEndPoint)
+                Dim returnData As String = Encoding.ASCII.GetString(receiveBytes)
 
-            updateTicTacToe(returnData)
-        End While
+                updateTicTacToe(returnData)
+            End While
+        Catch ex As Exception
+            MsgBox("Terjadi kesalahan. Pastikan anda memilih opsi yang benar. Klik Reset untuk mulai dari aplilkasi dari awal", MessageBoxButtons.OK, "Terjadi Kesalahan")
+        End Try
+
     End Sub
 
     'untuk observer di sisi client
     Public Sub serverThread2()
-        Dim udpClient As New UdpClient(8084)
-        While True
-            Dim RemoteIpEndPoint As New IPEndPoint(IPAddress.Any, 0)
-            Dim receiveBytes As Byte()
-            receiveBytes = udpClient.Receive(RemoteIpEndPoint)
-            Dim returnData As String = Encoding.ASCII.GetString(receiveBytes)
+        Try
+            Dim udpClient As New UdpClient(8084)
+            While True
+                Dim RemoteIpEndPoint As New IPEndPoint(IPAddress.Any, 0)
+                Dim receiveBytes As Byte()
+                receiveBytes = udpClient.Receive(RemoteIpEndPoint)
+                Dim returnData As String = Encoding.ASCII.GetString(receiveBytes)
 
-            updateTicTacToe(returnData)
-        End While
+                updateTicTacToe(returnData)
+            End While
+        Catch ex As Exception
+            MsgBox("Terjadi kesalahan. Pastikan anda memilih opsi yang benar. Klik Reset untuk mulai dari aplilkasi dari awal", MessageBoxButtons.OK, "Terjadi Kesalahan")
+        End Try
+
     End Sub
 
     Private Sub btnHostGame_Click(sender As Object, e As EventArgs) Handles btnHostGame.Click
+        btnHostGame.Enabled = False
+        btnConnect.Enabled = False
         lblSebagai.Text = "Sebagai : Server (Player 2)"
         lblStatus.Text = "Tunggu Player Lain"
 
@@ -288,6 +300,8 @@ Public Class Form1
     End Sub
 
     Private Sub btnConnect_Click(sender As Object, e As EventArgs) Handles btnConnect.Click
+        btnConnect.Enabled = False
+        btnHostGame.Enabled = False
         lblSebagai.Text = "Sebagai : Server (Player 1)"
         isClient = True
         enableAllButton()
@@ -299,11 +313,16 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("1")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("1")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
 
             disableAllButton()
             Button1.Text = "X"
@@ -311,11 +330,16 @@ Public Class Form1
             'cek apakah menang atau tidak
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("1")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("1")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button1.Text = "O"
             disableAllButton()
 
@@ -327,12 +351,15 @@ Public Class Form1
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("2")
-            udpClient.Send(sendBytes, sendBytes.Length)
-
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("2")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
             disableAllButton()
             Button2.Text = "X"
             lblStatus.Text = "Giliran Musuh"
@@ -340,37 +367,47 @@ Public Class Form1
         Else
             Button2.Text = "O"
             disableAllButton()
-
             lblStatus.Text = "Giliran Musuh"
-
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("2")
-            udpClient.Send(sendBytes, sendBytes.Length)
-            checkWin()
-
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("2")
+                udpClient.Send(sendBytes, sendBytes.Length)
+                checkWin()
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
         End If
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("3")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("3")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
 
             disableAllButton()
             Button3.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("3")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("3")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button3.Text = "O"
             disableAllButton()
 
@@ -381,22 +418,31 @@ Public Class Form1
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("4")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("4")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
 
             disableAllButton()
             Button4.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("4")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("4")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button4.Text = "O"
             disableAllButton()
 
@@ -407,22 +453,32 @@ Public Class Form1
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("5")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("5")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
 
             disableAllButton()
             Button5.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("5")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("5")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button5.Text = "O"
             disableAllButton()
 
@@ -433,22 +489,32 @@ Public Class Form1
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("6")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("6")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
 
             disableAllButton()
             Button6.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("6")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("6")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button6.Text = "O"
             disableAllButton()
 
@@ -459,22 +525,32 @@ Public Class Form1
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("7")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("7")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
 
             disableAllButton()
             Button7.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("7")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("7")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button7.Text = "O"
             disableAllButton()
 
@@ -485,22 +561,31 @@ Public Class Form1
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("8")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("8")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
 
             disableAllButton()
             Button8.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("8")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("8")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button8.Text = "O"
             disableAllButton()
 
@@ -511,22 +596,32 @@ Public Class Form1
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         If (isClient = True) Then
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8083)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("9")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8083)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("9")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
 
             disableAllButton()
             Button9.Text = "X"
             lblStatus.Text = "Giliran Musuh"
             checkWin()
         Else
-            Dim udpClient As New UdpClient
-            udpClient.Connect(txtIP.Text, 8084)
-            Dim sendBytes As Byte()
-            sendBytes = Encoding.ASCII.GetBytes("9")
-            udpClient.Send(sendBytes, sendBytes.Length)
+            Try
+                Dim udpClient As New UdpClient
+                udpClient.Connect(txtIP.Text, 8084)
+                Dim sendBytes As Byte()
+                sendBytes = Encoding.ASCII.GetBytes("9")
+                udpClient.Send(sendBytes, sendBytes.Length)
+            Catch ex As Exception
+                MsgBox("Terjadi kesalahan. Pastikan IP Anda benar")
+            End Try
+
             Button9.Text = "O"
             disableAllButton()
 
@@ -536,11 +631,22 @@ Public Class Form1
     End Sub
 
     Private Sub btnPlayAgain_Click(sender As Object, e As EventArgs) Handles btnPlayAgain.Click
+        MsgBox("Pastikan klik Play Again di masing-masing Player untuk bisa bermain lagi", MessageBoxButtons.OK, "Main Lagi")
         Dim b() As Button = {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9}
 
         For i As Byte = 0 To 8
             b(i).Enabled = True
             b(i).Text = ""
         Next i
+    End Sub
+
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        Application.Restart()
+    End Sub
+
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        If (MessageBox.Show("Yakin keluar Aplikasi ?", "Keluar", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.No) Then
+            e.Cancel = True
+        End If
     End Sub
 End Class

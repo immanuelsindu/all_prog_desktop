@@ -42,6 +42,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnPlayAgain = New System.Windows.Forms.Button()
         Me.lblHighScore = New System.Windows.Forms.Label()
+        Me.btnReset = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -210,7 +211,7 @@ Partial Class Form1
         '
         'btnPlayAgain
         '
-        Me.btnPlayAgain.Location = New System.Drawing.Point(224, 341)
+        Me.btnPlayAgain.Location = New System.Drawing.Point(224, 325)
         Me.btnPlayAgain.Name = "btnPlayAgain"
         Me.btnPlayAgain.Size = New System.Drawing.Size(68, 23)
         Me.btnPlayAgain.TabIndex = 13
@@ -226,11 +227,21 @@ Partial Class Form1
         Me.lblHighScore.TabIndex = 14
         Me.lblHighScore.Text = "0"
         '
+        'btnReset
+        '
+        Me.btnReset.Location = New System.Drawing.Point(224, 358)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(68, 23)
+        Me.btnReset.TabIndex = 15
+        Me.btnReset.Text = "Reset"
+        Me.btnReset.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(304, 371)
+        Me.ClientSize = New System.Drawing.Size(304, 393)
+        Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.lblHighScore)
         Me.Controls.Add(Me.btnPlayAgain)
         Me.Controls.Add(Me.Button9)
@@ -276,4 +287,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents btnPlayAgain As Button
     Friend WithEvents lblHighScore As Label
+    Friend WithEvents btnReset As Button
 End Class
