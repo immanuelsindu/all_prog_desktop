@@ -40,6 +40,8 @@ Partial Class Form1
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.btnPlayAgain = New System.Windows.Forms.Button()
+        Me.lblHighScore = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -202,15 +204,35 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(12, 346)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 13)
+        Me.Label3.Size = New System.Drawing.Size(69, 13)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "High Score"
+        Me.Label3.Text = "High Score : "
+        '
+        'btnPlayAgain
+        '
+        Me.btnPlayAgain.Location = New System.Drawing.Point(224, 341)
+        Me.btnPlayAgain.Name = "btnPlayAgain"
+        Me.btnPlayAgain.Size = New System.Drawing.Size(68, 23)
+        Me.btnPlayAgain.TabIndex = 13
+        Me.btnPlayAgain.Text = "Play Again"
+        Me.btnPlayAgain.UseVisualStyleBackColor = True
+        '
+        'lblHighScore
+        '
+        Me.lblHighScore.AutoSize = True
+        Me.lblHighScore.Location = New System.Drawing.Point(76, 347)
+        Me.lblHighScore.Name = "lblHighScore"
+        Me.lblHighScore.Size = New System.Drawing.Size(13, 13)
+        Me.lblHighScore.TabIndex = 14
+        Me.lblHighScore.Text = "0"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(304, 371)
+        Me.Controls.Add(Me.lblHighScore)
+        Me.Controls.Add(Me.btnPlayAgain)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
@@ -252,4 +274,6 @@ Partial Class Form1
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Label3 As Label
+    Friend WithEvents btnPlayAgain As Button
+    Friend WithEvents lblHighScore As Label
 End Class
