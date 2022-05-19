@@ -28,7 +28,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnHostGame = New System.Windows.Forms.Button()
-        Me.btnSebagai = New System.Windows.Forms.Label()
+        Me.lblSebagai = New System.Windows.Forms.Label()
         Me.lblStatus = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -99,14 +99,14 @@ Partial Class Form1
         Me.btnHostGame.Text = "Host Game"
         Me.btnHostGame.UseVisualStyleBackColor = True
         '
-        'btnSebagai
+        'lblSebagai
         '
-        Me.btnSebagai.AutoSize = True
-        Me.btnSebagai.Location = New System.Drawing.Point(23, 105)
-        Me.btnSebagai.Name = "btnSebagai"
-        Me.btnSebagai.Size = New System.Drawing.Size(52, 13)
-        Me.btnSebagai.TabIndex = 0
-        Me.btnSebagai.Text = "Sebagai :"
+        Me.lblSebagai.AutoSize = True
+        Me.lblSebagai.Location = New System.Drawing.Point(23, 105)
+        Me.lblSebagai.Name = "lblSebagai"
+        Me.lblSebagai.Size = New System.Drawing.Size(52, 13)
+        Me.lblSebagai.TabIndex = 0
+        Me.lblSebagai.Text = "Sebagai :"
         '
         'lblStatus
         '
@@ -225,7 +225,7 @@ Partial Class Form1
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lblStatus)
-        Me.Controls.Add(Me.btnSebagai)
+        Me.Controls.Add(Me.lblSebagai)
         Me.Name = "Form1"
         Me.Text = "Setting"
         Me.GroupBox1.ResumeLayout(False)
@@ -241,7 +241,7 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btnHostGame As Button
-    Friend WithEvents btnSebagai As Label
+    Friend WithEvents lblSebagai As Label
     Friend WithEvents lblStatus As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button

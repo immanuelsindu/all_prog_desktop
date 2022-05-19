@@ -11,3 +11,16 @@ C:\Users\Sindu\source\repos\TAS_Progdesk\TicTacToeUDP\TicTacToeUDP\obj\Debug\Tic
 C:\Users\Sindu\source\repos\TAS_Progdesk\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.exe
 C:\Users\Sindu\source\repos\TAS_Progdesk\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.xml
 C:\Users\Sindu\source\repos\TAS_Progdesk\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.pdb
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\bin\Debug\TicTacToeUDP.exe.config
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\bin\Debug\TicTacToeUDP.exe
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\bin\Debug\TicTacToeUDP.pdb
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\bin\Debug\TicTacToeUDP.xml
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.Form1.resources
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.Resources.resources
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.exe
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.xml
+C:\Users\Sindu\source\repos\TicTacToeUDP\TicTacToeUDP\obj\Debug\TicTacToeUDP.pdb
