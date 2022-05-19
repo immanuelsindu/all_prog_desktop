@@ -111,11 +111,10 @@ Partial Class Form1
         'lblStatus
         '
         Me.lblStatus.AutoSize = True
-        Me.lblStatus.Location = New System.Drawing.Point(113, 129)
+        Me.lblStatus.Location = New System.Drawing.Point(102, 128)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(82, 13)
+        Me.lblStatus.Size = New System.Drawing.Size(0, 13)
         Me.lblStatus.TabIndex = 0
-        Me.lblStatus.Text = "Kamu Menang !"
         '
         'Button1
         '
