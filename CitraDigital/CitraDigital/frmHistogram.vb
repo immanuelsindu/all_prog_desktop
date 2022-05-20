@@ -2,15 +2,15 @@
     Private Sub frmHistogram_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim r, g, b, max As Integer
         Dim hR, hG, hB As Integer
-        Dim bmp = New Bitmap(PictureBox1.Image)
+        Dim bmp = New Bitmap(Form1.PictureBox1.Image)
         Dim frekR(256), frekG(256), frekB(256) As Integer
         For i As Integer = 0 To 255
             frekR(i) = 0
             frekG(i) = 0
             frekB(i) = 0
         Next
-        For bar As Integer = 1 To PictureBox1.Image.Height - 2
-            For kol As Integer = 1 To PictureBox1.Image.Width - 2
+        For bar As Integer = 1 To Form1.PictureBox1.Image.Height - 2
+            For kol As Integer = 1 To Form1.PictureBox1.Image.Width - 2
                 r = bmp.GetPixel(kol, bar).R
                 g = bmp.GetPixel(kol, bar).G
                 b = bmp.GetPixel(kol, bar).B
@@ -43,4 +43,6 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
     End Sub
+
+
 End Class

@@ -41,6 +41,7 @@ Partial Class frmHistogram
         Me.PictureBox1.Location = New System.Drawing.Point(-1, -3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(397, 210)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
