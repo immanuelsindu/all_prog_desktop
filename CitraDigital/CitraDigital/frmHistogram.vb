@@ -9,8 +9,8 @@
             frekG(i) = 0
             frekB(i) = 0
         Next
-        For bar As Integer = 1 To Form1.PictureBox1.Image.Height - 2
-            For kol As Integer = 1 To Form1.PictureBox1.Image.Width - 2
+        For bar As Integer = 1 To Form1.PictureBox1.Image.Height - 1
+            For kol As Integer = 1 To Form1.PictureBox1.Image.Width - 1
                 r = bmp.GetPixel(kol, bar).R
                 g = bmp.GetPixel(kol, bar).G
                 b = bmp.GetPixel(kol, bar).B

@@ -44,6 +44,8 @@ Partial Class Form1
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.SpesialEffectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FlipHorizontalManualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -133,7 +135,7 @@ Partial Class Form1
         '
         'EfekToolStripMenuItem
         '
-        Me.EfekToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TajamkanToolStripMenuItem, Me.KaburkanToolStripMenuItem, Me.Rotasi90DerajatToolStripMenuItem, Me.HToolStripMenuItem, Me.FlipVertikalToolStripMenuItem})
+        Me.EfekToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TajamkanToolStripMenuItem, Me.KaburkanToolStripMenuItem, Me.Rotasi90DerajatToolStripMenuItem, Me.HToolStripMenuItem, Me.FlipVertikalToolStripMenuItem, Me.SpesialEffectToolStripMenuItem, Me.FlipHorizontalManualToolStripMenuItem})
         Me.EfekToolStripMenuItem.Name = "EfekToolStripMenuItem"
         Me.EfekToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.EfekToolStripMenuItem.Text = "Effect"
@@ -182,6 +184,18 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'SpesialEffectToolStripMenuItem
+        '
+        Me.SpesialEffectToolStripMenuItem.Name = "SpesialEffectToolStripMenuItem"
+        Me.SpesialEffectToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SpesialEffectToolStripMenuItem.Text = "Super Brightness"
+        '
+        'FlipHorizontalManualToolStripMenuItem
+        '
+        Me.FlipHorizontalManualToolStripMenuItem.Name = "FlipHorizontalManualToolStripMenuItem"
+        Me.FlipHorizontalManualToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
+        Me.FlipHorizontalManualToolStripMenuItem.Text = "Flip Horizontal Manual"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -189,7 +203,6 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(642, 350)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -224,4 +237,6 @@ Partial Class Form1
     Friend WithEvents Rotasi90DerajatToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FlipVertikalToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SpesialEffectToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FlipHorizontalManualToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -39,21 +39,27 @@
     End Sub
 
     Private Sub GrayscaleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GrayscaleToolStripMenuItem.Click
-        Dim r, g, b, gray As Integer
-        Dim bmp = New Bitmap(PictureBox1.Image)
-        For bar As Integer = 0 To PictureBox1.Image.Height - 1
-            For kol As Integer = 0 To PictureBox1.Image.Width - 1
-                r = bmp.GetPixel(kol, bar).R
-                g = bmp.GetPixel(kol, bar).G
-                b = bmp.GetPixel(kol, bar).B
-                gray = Math.Round(0.2126 * r + 0.7152 * g + 0.0722 * b)
-                bmp.SetPixel(kol, bar, Color.FromArgb(gray, gray, gray))
+        If (PictureBox1.Image IsNot Nothing) Then
+            Dim r, g, b, gray As Integer
+            Dim bmp = New Bitmap(PictureBox1.Image)
+
+            For bar As Integer = 0 To PictureBox1.Image.Height - 1
+                For kol As Integer = 0 To PictureBox1.Image.Width - 1
+                    r = bmp.GetPixel(kol, bar).R
+                    g = bmp.GetPixel(kol, bar).G
+                    b = bmp.GetPixel(kol, bar).B
+                    gray = Math.Round(0.2126 * r + 0.7152 * g + 0.0722 * b)
+                    bmp.SetPixel(kol, bar, Color.FromArgb(gray, gray, gray))
+                Next
             Next
-        Next
-        'Dim img As Image
-        'img = CType(bmp, Image)
-        'PictureBox1.Image = img
-        PictureBox1.Image = bmp
+            'Dim img As Image
+            'img = CType(bmp, Image)
+            'PictureBox1.Image = img
+            PictureBox1.Image = bmp
+        Else
+            MsgBox("Masukkan gambar terlebih dahulu", MessageBoxButtons.OK + MessageBoxIcon.Error, "Terjadi Kesalahan")
+            Return
+        End If
     End Sub
 
     Private Sub CerahkanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CerahkanToolStripMenuItem.Click
@@ -235,4 +241,75 @@
         bmp.RotateFlip(RotateFlipType.RotateNoneFlipY)
         PictureBox1.Image = bmp
     End Sub
+
+    Private Sub SpesialEffectToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SpesialEffectToolStripMenuItem.Click
+        Dim r, g, b As Integer
+        Dim bmp = New Bitmap(PictureBox1.Image)
+        Dim kernel As Integer() = {1, 0, 1, 0, 1, 0, 1, 0, 1}
+        For bar As Integer = 1 To PictureBox1.Image.Height - 2
+            For kol As Integer = 1 To PictureBox1.Image.Width - 2
+                r = 0
+                g = 0
+                b = 0
+                For i As Integer = 0 To 8
+                    r = r + (kernel(i) * bmp.GetPixel(kol - 1 + (i Mod 3), bar - 1 +
+                    (i \ 3)).R)
+                    g = g + (kernel(i) * bmp.GetPixel(kol - 1 + (i Mod 3), bar - 1 +
+                    (i \ 3)).G)
+                    b = b + (kernel(i) * bmp.GetPixel(kol - 1 + (i Mod 3), bar - 1 +
+                    (i \ 3)).B)
+                Next
+                r = Math.Floor(r / 3.5)
+                g = Math.Floor(g / 3.5)
+                b = Math.Floor(b / 3.5)
+                If r < 0 Then r = 0
+                If g < 0 Then g = 0
+                If b < 0 Then b = 0
+                If r > 255 Then r = 255
+                If g > 255 Then g = 255
+                If b > 255 Then b = 255
+                bmp.SetPixel(kol, bar, Color.FromArgb(r, g, b))
+            Next
+        Next
+        PictureBox1.Image = bmp
+    End Sub
+
+    Private Sub FlipHorizontalManualToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FlipHorizontalManualToolStripMenuItem.Click
+        Dim bmp = New Bitmap(PictureBox1.Image)
+        Dim oriWidth = bmp.Width
+        Dim oriHeight = bmp.Height
+        Dim flipImage As Bitmap = New Bitmap(oriWidth * 2, oriHeight)
+        For i As Integer = 0 To oriHeight - 1
+            Dim lx As Integer = 0
+            Dim rx As Integer = oriWidth * 2 - 1
+            While lx < oriWidth
+                Dim color As Color = bmp.GetPixel(lx, i)
+                'flipImage.SetPixel(lx, i, color)
+                flipImage.SetPixel(rx, i, color)
+                lx += 1
+                rx -= 1
+            End While
+        Next
+        PictureBox1.Image = flipImage
+    End Sub
+
+    ''flip horizontal manual
+    'Private Sub Command1_Click()
+    '    '============================
+    '    Dim img As Image
+
+    '    Set img = Controls.Add("VB.Image", "imgTemp")
+    '    img.Picture = .Image.Cls.PaintPicture
+    '    img.Picture,
+    '                  .ScaleWidth,
+    '                  0,
+    '                  - .ScaleWidth,
+    '                  .ScaleHeight
+    '    'Controls.Remove "imgTemp"
+    '    'Set img = Nothing
+
+    'End Sub
+
 End Class
+
+
