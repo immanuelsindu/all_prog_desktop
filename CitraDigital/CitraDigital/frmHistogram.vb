@@ -1,4 +1,4 @@
-﻿Public Class frmUtama
+﻿Public Class frmHistogram
     Private Sub frmHistogram_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim r, g, b, max As Integer
         Dim hR, hG, hB As Integer

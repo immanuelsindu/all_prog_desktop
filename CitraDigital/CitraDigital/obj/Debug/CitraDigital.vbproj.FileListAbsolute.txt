@@ -1,0 +1,14 @@
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\bin\Debug\CitraDigital.exe.config
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\bin\Debug\CitraDigital.exe
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\bin\Debug\CitraDigital.pdb
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\bin\Debug\CitraDigital.xml
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.vbproj.AssemblyReference.cache
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.Form1.resources
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.frmHistogram.resources
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.Resources.resources
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.vbproj.GenerateResource.cache
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.vbproj.CoreCompileInputs.cache
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.exe
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.xml
+C:\Users\Sindu\source\repos\CitraDigital\CitraDigital\obj\Debug\CitraDigital.pdb

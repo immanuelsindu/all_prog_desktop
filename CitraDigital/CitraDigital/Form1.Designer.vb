@@ -26,12 +26,8 @@ Partial Class Form1
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BukaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SimpanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HistogramToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EfekToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PropertiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HistogramToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GrayscaleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CerahkanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GelapkanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,11 +35,15 @@ Partial Class Form1
         Me.KurangiKontrasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ResetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TampilkanHistogramToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EfekToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TajamkanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KaburkanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Rotasi90DerajatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FlipVertikalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,7 +53,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.HistogramToolStripMenuItem, Me.EfekToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(451, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(642, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -67,14 +67,20 @@ Partial Class Form1
         'BukaToolStripMenuItem
         '
         Me.BukaToolStripMenuItem.Name = "BukaToolStripMenuItem"
-        Me.BukaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BukaToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.BukaToolStripMenuItem.Text = "Buka"
         '
         'SimpanToolStripMenuItem
         '
         Me.SimpanToolStripMenuItem.Name = "SimpanToolStripMenuItem"
-        Me.SimpanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SimpanToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.SimpanToolStripMenuItem.Text = "Simpan"
+        '
+        'PropertiToolStripMenuItem
+        '
+        Me.PropertiToolStripMenuItem.Name = "PropertiToolStripMenuItem"
+        Me.PropertiToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.PropertiToolStripMenuItem.Text = "Properti"
         '
         'HistogramToolStripMenuItem
         '
@@ -83,66 +89,40 @@ Partial Class Form1
         Me.HistogramToolStripMenuItem.Size = New System.Drawing.Size(75, 20)
         Me.HistogramToolStripMenuItem.Text = "Histogram"
         '
-        'EfekToolStripMenuItem
-        '
-        Me.EfekToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TajamkanToolStripMenuItem, Me.KaburkanToolStripMenuItem, Me.Rotasi90DerajatToolStripMenuItem, Me.HToolStripMenuItem, Me.FlipVertikalToolStripMenuItem})
-        Me.EfekToolStripMenuItem.Name = "EfekToolStripMenuItem"
-        Me.EfekToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
-        Me.EfekToolStripMenuItem.Text = "Effect"
-        '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 24)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(451, 426)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
-        '
-        'PropertiToolStripMenuItem
-        '
-        Me.PropertiToolStripMenuItem.Name = "PropertiToolStripMenuItem"
-        Me.PropertiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.PropertiToolStripMenuItem.Text = "Properti"
-        '
         'GrayscaleToolStripMenuItem
         '
         Me.GrayscaleToolStripMenuItem.Name = "GrayscaleToolStripMenuItem"
-        Me.GrayscaleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.GrayscaleToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.GrayscaleToolStripMenuItem.Text = "Grayscale"
         '
         'CerahkanToolStripMenuItem
         '
         Me.CerahkanToolStripMenuItem.Name = "CerahkanToolStripMenuItem"
-        Me.CerahkanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CerahkanToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.CerahkanToolStripMenuItem.Text = "Cerahkan"
         '
         'GelapkanToolStripMenuItem
         '
         Me.GelapkanToolStripMenuItem.Name = "GelapkanToolStripMenuItem"
-        Me.GelapkanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.GelapkanToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.GelapkanToolStripMenuItem.Text = "Gelapkan"
         '
         'TambahKontrasToolStripMenuItem
         '
         Me.TambahKontrasToolStripMenuItem.Name = "TambahKontrasToolStripMenuItem"
-        Me.TambahKontrasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TambahKontrasToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.TambahKontrasToolStripMenuItem.Text = "Tambah Kontras"
         '
         'KurangiKontrasToolStripMenuItem
         '
         Me.KurangiKontrasToolStripMenuItem.Name = "KurangiKontrasToolStripMenuItem"
-        Me.KurangiKontrasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.KurangiKontrasToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.KurangiKontrasToolStripMenuItem.Text = "Kurangi Kontras"
         '
         'ResetToolStripMenuItem
         '
         Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
-        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.ResetToolStripMenuItem.Text = "Reset"
         '
         'TampilkanHistogramToolStripMenuItem
@@ -150,6 +130,13 @@ Partial Class Form1
         Me.TampilkanHistogramToolStripMenuItem.Name = "TampilkanHistogramToolStripMenuItem"
         Me.TampilkanHistogramToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.TampilkanHistogramToolStripMenuItem.Text = "Tampilkan Histogram"
+        '
+        'EfekToolStripMenuItem
+        '
+        Me.EfekToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TajamkanToolStripMenuItem, Me.KaburkanToolStripMenuItem, Me.Rotasi90DerajatToolStripMenuItem, Me.HToolStripMenuItem, Me.FlipVertikalToolStripMenuItem})
+        Me.EfekToolStripMenuItem.Name = "EfekToolStripMenuItem"
+        Me.EfekToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
+        Me.EfekToolStripMenuItem.Text = "Effect"
         '
         'TajamkanToolStripMenuItem
         '
@@ -181,15 +168,31 @@ Partial Class Form1
         Me.FlipVertikalToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.FlipVertikalToolStripMenuItem.Text = "Flip Vertikal"
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 24)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(642, 326)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(451, 450)
+        Me.ClientSize = New System.Drawing.Size(642, 350)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Pengolahan Citra"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
