@@ -284,7 +284,6 @@
             Dim rx As Integer = oriWidth * 2 - 1
             While lx < oriWidth
                 Dim color As Color = bmp.GetPixel(lx, i)
-                'flipImage.SetPixel(lx, i, color)
                 flipImage.SetPixel(rx, i, color)
                 lx += 1
                 rx -= 1
@@ -293,22 +292,6 @@
         PictureBox1.Image = flipImage
     End Sub
 
-    ''flip horizontal manual
-    'Private Sub Command1_Click()
-    '    '============================
-    '    Dim img As Image
-
-    '    Set img = Controls.Add("VB.Image", "imgTemp")
-    '    img.Picture = .Image.Cls.PaintPicture
-    '    img.Picture,
-    '                  .ScaleWidth,
-    '                  0,
-    '                  - .ScaleWidth,
-    '                  .ScaleHeight
-    '    'Controls.Remove "imgTemp"
-    '    'Set img = Nothing
-
-    'End Sub
 
 End Class
 
