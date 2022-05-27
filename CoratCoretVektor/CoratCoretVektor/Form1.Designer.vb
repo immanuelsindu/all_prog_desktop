@@ -23,38 +23,39 @@ Partial Class frmUtama
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.PanelShapeIsian = New System.Windows.Forms.Panel()
+        Me.PanelShapeTepi = New System.Windows.Forms.Panel()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.lblUkuran = New System.Windows.Forms.Label()
+        Me.RadioRadioElipsIsi = New System.Windows.Forms.RadioButton()
+        Me.RadioKotakIsi = New System.Windows.Forms.RadioButton()
+        Me.RadioElips = New System.Windows.Forms.RadioButton()
+        Me.RadioKotak = New System.Windows.Forms.RadioButton()
+        Me.RadioGaris = New System.Windows.Forms.RadioButton()
+        Me.RadioBebas = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnGambarUlang = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnUndo = New System.Windows.Forms.Button()
+        Me.PanelWarna6 = New System.Windows.Forms.Panel()
+        Me.PanelWarna5 = New System.Windows.Forms.Panel()
+        Me.PanelWarna4 = New System.Windows.Forms.Panel()
+        Me.PanelWarna3 = New System.Windows.Forms.Panel()
+        Me.PanelWarna2 = New System.Windows.Forms.Panel()
+        Me.PanelWarna1 = New System.Windows.Forms.Panel()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.RadioBebas = New System.Windows.Forms.RadioButton()
-        Me.RadioGaris = New System.Windows.Forms.RadioButton()
-        Me.RadioKotak = New System.Windows.Forms.RadioButton()
-        Me.RadioElips = New System.Windows.Forms.RadioButton()
-        Me.RadioKotakIsi = New System.Windows.Forms.RadioButton()
-        Me.RadioRadioElipsIsi = New System.Windows.Forms.RadioButton()
-        Me.lblUkuran = New System.Windows.Forms.Label()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.PanelShapeTepi = New System.Windows.Forms.Panel()
-        Me.PanelShapeIsian = New System.Windows.Forms.Panel()
-        Me.PanelWarna1 = New System.Windows.Forms.Panel()
-        Me.PanelWarna2 = New System.Windows.Forms.Panel()
-        Me.PanelWarna3 = New System.Windows.Forms.Panel()
-        Me.PanelWarna4 = New System.Windows.Forms.Panel()
-        Me.PanelWarna5 = New System.Windows.Forms.Panel()
-        Me.PanelWarna6 = New System.Windows.Forms.Panel()
-        Me.btnUndo = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnGambarUlang = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.BaruToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -77,6 +78,105 @@ Partial Class frmUtama
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Tools"
         '
+        'PanelShapeIsian
+        '
+        Me.PanelShapeIsian.BackColor = System.Drawing.Color.White
+        Me.PanelShapeIsian.Location = New System.Drawing.Point(60, 326)
+        Me.PanelShapeIsian.Name = "PanelShapeIsian"
+        Me.PanelShapeIsian.Size = New System.Drawing.Size(32, 31)
+        Me.PanelShapeIsian.TabIndex = 9
+        '
+        'PanelShapeTepi
+        '
+        Me.PanelShapeTepi.BackColor = System.Drawing.Color.Black
+        Me.PanelShapeTepi.Location = New System.Drawing.Point(17, 326)
+        Me.PanelShapeTepi.Name = "PanelShapeTepi"
+        Me.PanelShapeTepi.Size = New System.Drawing.Size(32, 31)
+        Me.PanelShapeTepi.TabIndex = 8
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(12, 185)
+        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {10, 0, 0, 0})
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(85, 20)
+        Me.NumericUpDown1.TabIndex = 7
+        '
+        'lblUkuran
+        '
+        Me.lblUkuran.AutoSize = True
+        Me.lblUkuran.Location = New System.Drawing.Point(9, 168)
+        Me.lblUkuran.Name = "lblUkuran"
+        Me.lblUkuran.Size = New System.Drawing.Size(93, 13)
+        Me.lblUkuran.TabIndex = 6
+        Me.lblUkuran.Text = "Ukuran Garis Tepi"
+        '
+        'RadioRadioElipsIsi
+        '
+        Me.RadioRadioElipsIsi.AutoSize = True
+        Me.RadioRadioElipsIsi.Location = New System.Drawing.Point(12, 134)
+        Me.RadioRadioElipsIsi.Name = "RadioRadioElipsIsi"
+        Me.RadioRadioElipsIsi.Size = New System.Drawing.Size(60, 17)
+        Me.RadioRadioElipsIsi.TabIndex = 5
+        Me.RadioRadioElipsIsi.TabStop = True
+        Me.RadioRadioElipsIsi.Text = "Elips Isi"
+        Me.RadioRadioElipsIsi.UseVisualStyleBackColor = True
+        '
+        'RadioKotakIsi
+        '
+        Me.RadioKotakIsi.AutoSize = True
+        Me.RadioKotakIsi.Location = New System.Drawing.Point(12, 111)
+        Me.RadioKotakIsi.Name = "RadioKotakIsi"
+        Me.RadioKotakIsi.Size = New System.Drawing.Size(66, 17)
+        Me.RadioKotakIsi.TabIndex = 4
+        Me.RadioKotakIsi.TabStop = True
+        Me.RadioKotakIsi.Text = "Kotak Isi"
+        Me.RadioKotakIsi.UseVisualStyleBackColor = True
+        '
+        'RadioElips
+        '
+        Me.RadioElips.AutoSize = True
+        Me.RadioElips.Location = New System.Drawing.Point(12, 88)
+        Me.RadioElips.Name = "RadioElips"
+        Me.RadioElips.Size = New System.Drawing.Size(47, 17)
+        Me.RadioElips.TabIndex = 3
+        Me.RadioElips.TabStop = True
+        Me.RadioElips.Text = "Elips"
+        Me.RadioElips.UseVisualStyleBackColor = True
+        '
+        'RadioKotak
+        '
+        Me.RadioKotak.AutoSize = True
+        Me.RadioKotak.Location = New System.Drawing.Point(12, 65)
+        Me.RadioKotak.Name = "RadioKotak"
+        Me.RadioKotak.Size = New System.Drawing.Size(53, 17)
+        Me.RadioKotak.TabIndex = 2
+        Me.RadioKotak.TabStop = True
+        Me.RadioKotak.Text = "Kotak"
+        Me.RadioKotak.UseVisualStyleBackColor = True
+        '
+        'RadioGaris
+        '
+        Me.RadioGaris.AutoSize = True
+        Me.RadioGaris.Location = New System.Drawing.Point(12, 42)
+        Me.RadioGaris.Name = "RadioGaris"
+        Me.RadioGaris.Size = New System.Drawing.Size(49, 17)
+        Me.RadioGaris.TabIndex = 1
+        Me.RadioGaris.TabStop = True
+        Me.RadioGaris.Text = "Garis"
+        Me.RadioGaris.UseVisualStyleBackColor = True
+        '
+        'RadioBebas
+        '
+        Me.RadioBebas.AutoSize = True
+        Me.RadioBebas.Location = New System.Drawing.Point(12, 19)
+        Me.RadioBebas.Name = "RadioBebas"
+        Me.RadioBebas.Size = New System.Drawing.Size(55, 17)
+        Me.RadioBebas.TabIndex = 0
+        Me.RadioBebas.TabStop = True
+        Me.RadioBebas.Text = "Bebas"
+        Me.RadioBebas.UseVisualStyleBackColor = True
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.btnGambarUlang)
@@ -96,6 +196,81 @@ Partial Class frmUtama
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Warna"
         '
+        'btnGambarUlang
+        '
+        Me.btnGambarUlang.Location = New System.Drawing.Point(451, 22)
+        Me.btnGambarUlang.Name = "btnGambarUlang"
+        Me.btnGambarUlang.Size = New System.Drawing.Size(111, 23)
+        Me.btnGambarUlang.TabIndex = 7
+        Me.btnGambarUlang.Text = "Gambar Ulang"
+        Me.btnGambarUlang.UseVisualStyleBackColor = True
+        '
+        'btnClear
+        '
+        Me.btnClear.Location = New System.Drawing.Point(309, 22)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.TabIndex = 6
+        Me.btnClear.Text = "Bersihkan Kanvas"
+        Me.btnClear.UseVisualStyleBackColor = True
+        '
+        'btnUndo
+        '
+        Me.btnUndo.Location = New System.Drawing.Point(228, 22)
+        Me.btnUndo.Name = "btnUndo"
+        Me.btnUndo.Size = New System.Drawing.Size(75, 23)
+        Me.btnUndo.TabIndex = 5
+        Me.btnUndo.Text = "Undo"
+        Me.btnUndo.UseVisualStyleBackColor = True
+        '
+        'PanelWarna6
+        '
+        Me.PanelWarna6.BackColor = System.Drawing.Color.White
+        Me.PanelWarna6.Location = New System.Drawing.Point(167, 20)
+        Me.PanelWarna6.Name = "PanelWarna6"
+        Me.PanelWarna6.Size = New System.Drawing.Size(25, 25)
+        Me.PanelWarna6.TabIndex = 1
+        '
+        'PanelWarna5
+        '
+        Me.PanelWarna5.BackColor = System.Drawing.Color.Black
+        Me.PanelWarna5.Location = New System.Drawing.Point(136, 20)
+        Me.PanelWarna5.Name = "PanelWarna5"
+        Me.PanelWarna5.Size = New System.Drawing.Size(25, 25)
+        Me.PanelWarna5.TabIndex = 1
+        '
+        'PanelWarna4
+        '
+        Me.PanelWarna4.BackColor = System.Drawing.Color.Blue
+        Me.PanelWarna4.Location = New System.Drawing.Point(105, 20)
+        Me.PanelWarna4.Name = "PanelWarna4"
+        Me.PanelWarna4.Size = New System.Drawing.Size(25, 25)
+        Me.PanelWarna4.TabIndex = 1
+        '
+        'PanelWarna3
+        '
+        Me.PanelWarna3.BackColor = System.Drawing.Color.Lime
+        Me.PanelWarna3.Location = New System.Drawing.Point(74, 20)
+        Me.PanelWarna3.Name = "PanelWarna3"
+        Me.PanelWarna3.Size = New System.Drawing.Size(25, 25)
+        Me.PanelWarna3.TabIndex = 1
+        '
+        'PanelWarna2
+        '
+        Me.PanelWarna2.BackColor = System.Drawing.Color.Yellow
+        Me.PanelWarna2.Location = New System.Drawing.Point(43, 20)
+        Me.PanelWarna2.Name = "PanelWarna2"
+        Me.PanelWarna2.Size = New System.Drawing.Size(25, 25)
+        Me.PanelWarna2.TabIndex = 1
+        '
+        'PanelWarna1
+        '
+        Me.PanelWarna1.BackColor = System.Drawing.Color.Red
+        Me.PanelWarna1.Location = New System.Drawing.Point(12, 20)
+        Me.PanelWarna1.Name = "PanelWarna1"
+        Me.PanelWarna1.Size = New System.Drawing.Size(25, 25)
+        Me.PanelWarna1.TabIndex = 0
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.TextBox1)
@@ -106,6 +281,16 @@ Partial Class frmUtama
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Objek"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TextBox1.Location = New System.Drawing.Point(3, 16)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBox1.Size = New System.Drawing.Size(153, 296)
+        Me.TextBox1.TabIndex = 0
         '
         'MenuStrip1
         '
@@ -118,9 +303,22 @@ Partial Class frmUtama
         '
         'FileToolStripMenuItem
         '
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BaruToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
+        '
+        'BaruToolStripMenuItem
+        '
+        Me.BaruToolStripMenuItem.Name = "BaruToolStripMenuItem"
+        Me.BaruToolStripMenuItem.Size = New System.Drawing.Size(98, 22)
+        Me.BaruToolStripMenuItem.Text = "Baru"
+        '
+        'KeluarToolStripMenuItem
+        '
+        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
+        Me.KeluarToolStripMenuItem.Text = "Keluar"
         '
         'PictureBox1
         '
@@ -131,196 +329,6 @@ Partial Class frmUtama
         Me.PictureBox1.Size = New System.Drawing.Size(451, 315)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
-        '
-        'RadioBebas
-        '
-        Me.RadioBebas.AutoSize = True
-        Me.RadioBebas.Location = New System.Drawing.Point(12, 19)
-        Me.RadioBebas.Name = "RadioBebas"
-        Me.RadioBebas.Size = New System.Drawing.Size(55, 17)
-        Me.RadioBebas.TabIndex = 0
-        Me.RadioBebas.TabStop = True
-        Me.RadioBebas.Text = "Bebas"
-        Me.RadioBebas.UseVisualStyleBackColor = True
-        '
-        'RadioGaris
-        '
-        Me.RadioGaris.AutoSize = True
-        Me.RadioGaris.Location = New System.Drawing.Point(12, 42)
-        Me.RadioGaris.Name = "RadioGaris"
-        Me.RadioGaris.Size = New System.Drawing.Size(49, 17)
-        Me.RadioGaris.TabIndex = 1
-        Me.RadioGaris.TabStop = True
-        Me.RadioGaris.Text = "Garis"
-        Me.RadioGaris.UseVisualStyleBackColor = True
-        '
-        'RadioKotak
-        '
-        Me.RadioKotak.AutoSize = True
-        Me.RadioKotak.Location = New System.Drawing.Point(12, 65)
-        Me.RadioKotak.Name = "RadioKotak"
-        Me.RadioKotak.Size = New System.Drawing.Size(53, 17)
-        Me.RadioKotak.TabIndex = 2
-        Me.RadioKotak.TabStop = True
-        Me.RadioKotak.Text = "Kotak"
-        Me.RadioKotak.UseVisualStyleBackColor = True
-        '
-        'RadioElips
-        '
-        Me.RadioElips.AutoSize = True
-        Me.RadioElips.Location = New System.Drawing.Point(12, 88)
-        Me.RadioElips.Name = "RadioElips"
-        Me.RadioElips.Size = New System.Drawing.Size(47, 17)
-        Me.RadioElips.TabIndex = 3
-        Me.RadioElips.TabStop = True
-        Me.RadioElips.Text = "Elips"
-        Me.RadioElips.UseVisualStyleBackColor = True
-        '
-        'RadioKotakIsi
-        '
-        Me.RadioKotakIsi.AutoSize = True
-        Me.RadioKotakIsi.Location = New System.Drawing.Point(12, 111)
-        Me.RadioKotakIsi.Name = "RadioKotakIsi"
-        Me.RadioKotakIsi.Size = New System.Drawing.Size(66, 17)
-        Me.RadioKotakIsi.TabIndex = 4
-        Me.RadioKotakIsi.TabStop = True
-        Me.RadioKotakIsi.Text = "Kotak Isi"
-        Me.RadioKotakIsi.UseVisualStyleBackColor = True
-        '
-        'RadioRadioElipsIsi
-        '
-        Me.RadioRadioElipsIsi.AutoSize = True
-        Me.RadioRadioElipsIsi.Location = New System.Drawing.Point(12, 134)
-        Me.RadioRadioElipsIsi.Name = "RadioRadioElipsIsi"
-        Me.RadioRadioElipsIsi.Size = New System.Drawing.Size(60, 17)
-        Me.RadioRadioElipsIsi.TabIndex = 5
-        Me.RadioRadioElipsIsi.TabStop = True
-        Me.RadioRadioElipsIsi.Text = "Elips Isi"
-        Me.RadioRadioElipsIsi.UseVisualStyleBackColor = True
-        '
-        'lblUkuran
-        '
-        Me.lblUkuran.AutoSize = True
-        Me.lblUkuran.Location = New System.Drawing.Point(9, 168)
-        Me.lblUkuran.Name = "lblUkuran"
-        Me.lblUkuran.Size = New System.Drawing.Size(93, 13)
-        Me.lblUkuran.TabIndex = 6
-        Me.lblUkuran.Text = "Ukuran Garis Tepi"
-        '
-        'NumericUpDown1
-        '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(12, 185)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {10, 0, 0, 0})
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(85, 20)
-        Me.NumericUpDown1.TabIndex = 7
-        '
-        'PanelShapeTepi
-        '
-        Me.PanelShapeTepi.BackColor = System.Drawing.Color.Black
-        Me.PanelShapeTepi.Location = New System.Drawing.Point(17, 326)
-        Me.PanelShapeTepi.Name = "PanelShapeTepi"
-        Me.PanelShapeTepi.Size = New System.Drawing.Size(32, 31)
-        Me.PanelShapeTepi.TabIndex = 8
-        '
-        'PanelShapeIsian
-        '
-        Me.PanelShapeIsian.BackColor = System.Drawing.Color.White
-        Me.PanelShapeIsian.Location = New System.Drawing.Point(60, 326)
-        Me.PanelShapeIsian.Name = "PanelShapeIsian"
-        Me.PanelShapeIsian.Size = New System.Drawing.Size(32, 31)
-        Me.PanelShapeIsian.TabIndex = 9
-        '
-        'PanelWarna1
-        '
-        Me.PanelWarna1.BackColor = System.Drawing.Color.Red
-        Me.PanelWarna1.Location = New System.Drawing.Point(12, 20)
-        Me.PanelWarna1.Name = "PanelWarna1"
-        Me.PanelWarna1.Size = New System.Drawing.Size(25, 25)
-        Me.PanelWarna1.TabIndex = 0
-        '
-        'PanelWarna2
-        '
-        Me.PanelWarna2.BackColor = System.Drawing.Color.Yellow
-        Me.PanelWarna2.Location = New System.Drawing.Point(43, 20)
-        Me.PanelWarna2.Name = "PanelWarna2"
-        Me.PanelWarna2.Size = New System.Drawing.Size(25, 25)
-        Me.PanelWarna2.TabIndex = 1
-        '
-        'PanelWarna3
-        '
-        Me.PanelWarna3.BackColor = System.Drawing.Color.Lime
-        Me.PanelWarna3.Location = New System.Drawing.Point(74, 20)
-        Me.PanelWarna3.Name = "PanelWarna3"
-        Me.PanelWarna3.Size = New System.Drawing.Size(25, 25)
-        Me.PanelWarna3.TabIndex = 1
-        '
-        'PanelWarna4
-        '
-        Me.PanelWarna4.BackColor = System.Drawing.Color.Blue
-        Me.PanelWarna4.Location = New System.Drawing.Point(105, 20)
-        Me.PanelWarna4.Name = "PanelWarna4"
-        Me.PanelWarna4.Size = New System.Drawing.Size(25, 25)
-        Me.PanelWarna4.TabIndex = 1
-        '
-        'PanelWarna5
-        '
-        Me.PanelWarna5.BackColor = System.Drawing.Color.Black
-        Me.PanelWarna5.Location = New System.Drawing.Point(136, 20)
-        Me.PanelWarna5.Name = "PanelWarna5"
-        Me.PanelWarna5.Size = New System.Drawing.Size(25, 25)
-        Me.PanelWarna5.TabIndex = 1
-        '
-        'PanelWarna6
-        '
-        Me.PanelWarna6.BackColor = System.Drawing.Color.White
-        Me.PanelWarna6.Location = New System.Drawing.Point(167, 20)
-        Me.PanelWarna6.Name = "PanelWarna6"
-        Me.PanelWarna6.Size = New System.Drawing.Size(25, 25)
-        Me.PanelWarna6.TabIndex = 1
-        '
-        'btnUndo
-        '
-        Me.btnUndo.Location = New System.Drawing.Point(228, 22)
-        Me.btnUndo.Name = "btnUndo"
-        Me.btnUndo.Size = New System.Drawing.Size(75, 23)
-        Me.btnUndo.TabIndex = 5
-        Me.btnUndo.Text = "Undo"
-        Me.btnUndo.UseVisualStyleBackColor = True
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(309, 22)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 6
-        Me.btnClear.Text = "Bersihkan Kanvas"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnGambarUlang
-        '
-        Me.btnGambarUlang.Location = New System.Drawing.Point(451, 22)
-        Me.btnGambarUlang.Name = "btnGambarUlang"
-        Me.btnGambarUlang.Size = New System.Drawing.Size(111, 23)
-        Me.btnGambarUlang.TabIndex = 7
-        Me.btnGambarUlang.Text = "Gambar Ulang"
-        Me.btnGambarUlang.UseVisualStyleBackColor = True
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox1.Location = New System.Drawing.Point(3, 16)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox1.Size = New System.Drawing.Size(153, 296)
-        Me.TextBox1.TabIndex = 0
-        '
-        'KeluarToolStripMenuItem
-        '
-        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
-        Me.KeluarToolStripMenuItem.Text = "Keluar"
         '
         'frmUtama
         '
@@ -338,13 +346,13 @@ Partial Class frmUtama
         Me.Text = "Corat-Coret Vektor"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -377,4 +385,5 @@ Partial Class frmUtama
     Friend WithEvents btnUndo As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents KeluarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BaruToolStripMenuItem As ToolStripMenuItem
 End Class

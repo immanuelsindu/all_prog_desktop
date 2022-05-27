@@ -5,8 +5,8 @@ Public Class frmUtama
     Dim modegambar As String
     Dim warnatepi As Color = Color.Black
     Dim warnaisian As Color = Color.White
-    Dim tepi As New System.Drawing.Pen(warnatepi, 3)
-    Dim isian As New System.Drawing.SolidBrush(warnaisian)
+    Dim tepi As New Pen(warnatepi, 3)
+    Dim isian As New SolidBrush(warnaisian)
     Dim titik As Point = Nothing
     Dim dipencet As Boolean = False
     Dim bmp As Bitmap
@@ -60,7 +60,7 @@ Public Class frmUtama
                     End Using
                     PictureBox1.Invalidate()
                     TextBox1.AppendText("o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbNewLine)
-                    TextBox1.AppendText("o garis " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString & vbNewLine)
+                    TextBox1.AppendText("o garis " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString + " " + tepi.Width.ToString & vbNewLine)
                     titik = e.Location
                 End If
         End Select
@@ -171,51 +171,65 @@ Public Class frmUtama
     End Sub
 
     Private Sub btnGambarUlang_Click(sender As Object, e As EventArgs) Handles btnGambarUlang.Click
-        btnClear.PerformClick()
-        Dim a As Integer = TextBox1.Lines.Count
-        For i As Integer = 0 To a
-            Dim teksbaris As String = TextBox1.Lines(i)
-            Dim pecah() As String
-            pecah = teksbaris.Split(" "c)
-            On Error Resume Next
-            pecah(1) = pecah(1).Trim(" "c)
-            Select Case pecah(1)
-                Case "warnatepi"
-                    warnatepi = Color.FromArgb(CByte(pecah(2)), CByte(pecah(3)), CByte(pecah(4)))
-                    tepi.Color = warnatepi
-                Case "warnaisian"
-                    warnaisian = Color.FromArgb(CByte(pecah(2)), CByte(pecah(3)), CByte(pecah(4)))
-                    isian.Color = warnaisian
-                Case "garis"
-                    Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
-                        g.DrawLine(tepi, CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)), CInt(pecah(5)))
-                    End Using
-                Case "kotak"
-                    Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
-                    Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
-                        g.DrawRectangle(tepi, rect)
-                    End Using
-                Case "elips"
-                    Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
-                    Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
-                        g.DrawEllipse(tepi, rect)
-                    End Using
-                Case "kotakisi"
-                    Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
-                    Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
-                        g.FillRectangle(isian, rect)
-                    End Using
-                Case "elipsisi"
-                    Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
-                    Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
-                        g.FillEllipse(isian, rect)
-                    End Using
-            End Select
-        Next
-        PictureBox1.Invalidate()
+        If Not (TextBox1.Text = "" Or TextBox1.Text = Nothing) Then
+            btnClear.PerformClick()
+            Dim a As Integer = TextBox1.Lines.Count
+            For i As Integer = 0 To a
+                Dim teksbaris As String = TextBox1.Lines(i)
+                Dim pecah() As String
+                pecah = teksbaris.Split(" "c)
+                On Error Resume Next
+                pecah(1) = pecah(1).Trim(" "c)
+                Select Case pecah(1)
+                    Case "warnatepi"
+                        warnatepi = Color.FromArgb(CByte(pecah(2)), CByte(pecah(3)), CByte(pecah(4)))
+                        tepi.Color = warnatepi
+                    Case "warnaisian"
+                        warnaisian = Color.FromArgb(CByte(pecah(2)), CByte(pecah(3)), CByte(pecah(4)))
+                        isian.Color = warnaisian
+                    Case "garis"
+                        Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            tepi.Width = CDec(pecah(6).ToString)
+                            g.DrawLine(tepi, CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)), CInt(pecah(5)))
+                        End Using
+                    Case "kotak"
+                        Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
+                        Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            g.DrawRectangle(tepi, rect)
+                        End Using
+                    Case "elips"
+                        Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
+                        Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            g.DrawEllipse(tepi, rect)
+                        End Using
+                    Case "kotakisi"
+                        Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
+                        Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            g.FillRectangle(isian, rect)
+                        End Using
+                    Case "elipsisi"
+                        Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
+                        Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            g.FillEllipse(isian, rect)
+                        End Using
+                End Select
+            Next
+            PictureBox1.Invalidate()
+        Else
+            MsgBox("Tidak dapat melakukan gambar ulang karena Objek Kosong", MessageBoxButtons.OK + MessageBoxIcon.Error,
+       "Terjadi Kesalahan")
+        End If
+
     End Sub
 
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         Application.Exit()
     End Sub
+
+    Private Sub BaruToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BaruToolStripMenuItem.Click
+        btnClear.PerformClick()
+        TextBox1.Clear()
+    End Sub
+
+
 End Class
