@@ -86,11 +86,13 @@ Public Class frmUtama
                 Dim rect As New Rectangle(titik.X, titik.Y, e.X - titik.X, e.Y - titik.Y)
                 Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
                     g.FillRectangle(isian, rect)
+                    g.DrawRectangle(tepi, rect)
                 End Using
             Case "elipsisi"
                 Dim rect As New Rectangle(titik.X, titik.Y, e.X - titik.X, e.Y - titik.Y)
                 Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
                     g.FillEllipse(isian, rect)
+                    g.DrawEllipse(tepi, rect)
                 End Using
         End Select
         PictureBox1.Invalidate()
@@ -98,7 +100,7 @@ Public Class frmUtama
         If (titik.X <> e.X And titik.Y <> e.Y) Then
             TextBox1.AppendText("o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbNewLine)
             TextBox1.AppendText("o " + "warnaisian" + " " + warnaisian.R.ToString + " " + warnaisian.G.ToString + " " + warnaisian.B.ToString & vbNewLine)
-            TextBox1.AppendText("o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString & vbNewLine)
+            TextBox1.AppendText("o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString + " " + tepi.Width.ToString & vbNewLine)
         End If
     End Sub
 
@@ -195,22 +197,28 @@ Public Class frmUtama
                     Case "kotak"
                         Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
                         Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            tepi.Width = CDec(pecah(6).ToString)
                             g.DrawRectangle(tepi, rect)
                         End Using
                     Case "elips"
                         Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
                         Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            tepi.Width = CDec(pecah(6).ToString)
                             g.DrawEllipse(tepi, rect)
                         End Using
                     Case "kotakisi"
                         Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
                         Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            tepi.Width = CDec(pecah(6).ToString)
                             g.FillRectangle(isian, rect)
+                            g.DrawRectangle(tepi, rect)
                         End Using
                     Case "elipsisi"
                         Dim rect As New Rectangle(CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)) - CInt(pecah(2)), CInt(pecah(5)) - CInt(pecah(3)))
                         Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
+                            tepi.Width = CDec(pecah(6).ToString)
                             g.FillEllipse(isian, rect)
+                            g.DrawEllipse(tepi, rect)
                         End Using
                 End Select
             Next
