@@ -1,0 +1,360 @@
+﻿o warnatepi 0 0 0
+o garis 155 45 155 45 3
+o warnatepi 0 0 0
+o garis 155 45 154 45 3
+o warnatepi 0 0 0
+o garis 154 45 154 45 3
+o warnatepi 0 0 0
+o garis 154 45 153 45 3
+o warnatepi 0 0 0
+o garis 153 45 153 44 3
+o warnatepi 0 0 0
+o garis 153 44 152 44 3
+o warnatepi 0 0 0
+o garis 152 44 152 44 3
+o warnatepi 0 0 0
+o garis 152 44 151 44 3
+o warnatepi 0 0 0
+o garis 151 44 150 44 3
+o warnatepi 0 0 0
+o garis 150 44 149 44 3
+o warnatepi 0 0 0
+o garis 149 44 147 44 3
+o warnatepi 0 0 0
+o garis 147 44 146 44 3
+o warnatepi 0 0 0
+o garis 146 44 144 44 3
+o warnatepi 0 0 0
+o garis 144 44 142 45 3
+o warnatepi 0 0 0
+o garis 142 45 140 45 3
+o warnatepi 0 0 0
+o garis 140 45 139 46 3
+o warnatepi 0 0 0
+o garis 139 46 137 46 3
+o warnatepi 0 0 0
+o garis 137 46 135 47 3
+o warnatepi 0 0 0
+o garis 135 47 132 48 3
+o warnatepi 0 0 0
+o garis 132 48 130 49 3
+o warnatepi 0 0 0
+o garis 130 49 128 50 3
+o warnatepi 0 0 0
+o garis 128 50 126 52 3
+o warnatepi 0 0 0
+o garis 126 52 124 53 3
+o warnatepi 0 0 0
+o garis 124 53 122 55 3
+o warnatepi 0 0 0
+o garis 122 55 120 58 3
+o warnatepi 0 0 0
+o garis 120 58 117 62 3
+o warnatepi 0 0 0
+o garis 117 62 116 65 3
+o warnatepi 0 0 0
+o garis 116 65 114 68 3
+o warnatepi 0 0 0
+o garis 114 68 113 71 3
+o warnatepi 0 0 0
+o garis 113 71 112 73 3
+o warnatepi 0 0 0
+o garis 112 73 112 76 3
+o warnatepi 0 0 0
+o garis 112 76 111 79 3
+o warnatepi 0 0 0
+o garis 111 79 111 83 3
+o warnatepi 0 0 0
+o garis 111 83 110 87 3
+o warnatepi 0 0 0
+o garis 110 87 110 91 3
+o warnatepi 0 0 0
+o garis 110 91 110 95 3
+o warnatepi 0 0 0
+o garis 110 95 111 99 3
+o warnatepi 0 0 0
+o garis 111 99 111 102 3
+o warnatepi 0 0 0
+o garis 111 102 112 106 3
+o warnatepi 0 0 0
+o garis 112 106 113 111 3
+o warnatepi 0 0 0
+o garis 113 111 115 115 3
+o warnatepi 0 0 0
+o garis 115 115 117 120 3
+o warnatepi 0 0 0
+o garis 117 120 119 124 3
+o warnatepi 0 0 0
+o garis 119 124 121 128 3
+o warnatepi 0 0 0
+o garis 121 128 124 132 3
+o warnatepi 0 0 0
+o garis 124 132 127 135 3
+o warnatepi 0 0 0
+o garis 127 135 130 138 3
+o warnatepi 0 0 0
+o garis 130 138 134 143 3
+o warnatepi 0 0 0
+o garis 134 143 137 146 3
+o warnatepi 0 0 0
+o garis 137 146 142 149 3
+o warnatepi 0 0 0
+o garis 142 149 145 151 3
+o warnatepi 0 0 0
+o garis 145 151 152 153 3
+o warnatepi 0 0 0
+o garis 152 153 155 154 3
+o warnatepi 0 0 0
+o garis 155 154 159 155 3
+o warnatepi 0 0 0
+o garis 159 155 164 157 3
+o warnatepi 0 0 0
+o garis 164 157 170 158 3
+o warnatepi 0 0 0
+o garis 170 158 175 158 3
+o warnatepi 0 0 0
+o garis 175 158 182 158 3
+o warnatepi 0 0 0
+o garis 182 158 188 158 3
+o warnatepi 0 0 0
+o garis 188 158 194 158 3
+o warnatepi 0 0 0
+o garis 194 158 201 158 3
+o warnatepi 0 0 0
+o garis 201 158 207 158 3
+o warnatepi 0 0 0
+o garis 207 158 214 157 3
+o warnatepi 0 0 0
+o garis 214 157 218 157 3
+o warnatepi 0 0 0
+o garis 218 157 224 156 3
+o warnatepi 0 0 0
+o garis 224 156 231 155 3
+o warnatepi 0 0 0
+o garis 231 155 238 154 3
+o warnatepi 0 0 0
+o garis 238 154 244 152 3
+o warnatepi 0 0 0
+o garis 244 152 249 151 3
+o warnatepi 0 0 0
+o garis 249 151 255 149 3
+o warnatepi 0 0 0
+o garis 255 149 260 148 3
+o warnatepi 0 0 0
+o garis 260 148 264 146 3
+o warnatepi 0 0 0
+o garis 264 146 268 144 3
+o warnatepi 0 0 0
+o garis 268 144 273 142 3
+o warnatepi 0 0 0
+o garis 273 142 278 140 3
+o warnatepi 0 0 0
+o garis 278 140 280 138 3
+o warnatepi 0 0 0
+o garis 280 138 283 136 3
+o warnatepi 0 0 0
+o garis 283 136 286 133 3
+o warnatepi 0 0 0
+o garis 286 133 288 131 3
+o warnatepi 0 0 0
+o garis 288 131 289 129 3
+o warnatepi 0 0 0
+o garis 289 129 290 128 3
+o warnatepi 0 0 0
+o garis 290 128 291 125 3
+o warnatepi 0 0 0
+o garis 291 125 292 123 3
+o warnatepi 0 0 0
+o garis 292 123 292 121 3
+o warnatepi 0 0 0
+o garis 292 121 292 118 3
+o warnatepi 0 0 0
+o garis 292 118 292 116 3
+o warnatepi 0 0 0
+o garis 292 116 291 113 3
+o warnatepi 0 0 0
+o garis 291 113 290 112 3
+o warnatepi 0 0 0
+o garis 290 112 289 109 3
+o warnatepi 0 0 0
+o garis 289 109 288 107 3
+o warnatepi 0 0 0
+o garis 288 107 287 104 3
+o warnatepi 0 0 0
+o garis 287 104 284 102 3
+o warnatepi 0 0 0
+o garis 284 102 282 99 3
+o warnatepi 0 0 0
+o garis 282 99 281 97 3
+o warnatepi 0 0 0
+o garis 281 97 278 95 3
+o warnatepi 0 0 0
+o garis 278 95 276 93 3
+o warnatepi 0 0 0
+o garis 276 93 273 91 3
+o warnatepi 0 0 0
+o garis 273 91 269 89 3
+o warnatepi 0 0 0
+o garis 269 89 265 86 3
+o warnatepi 0 0 0
+o garis 265 86 261 85 3
+o warnatepi 0 0 0
+o garis 261 85 258 84 3
+o warnatepi 0 0 0
+o garis 258 84 253 82 3
+o warnatepi 0 0 0
+o garis 253 82 248 80 3
+o warnatepi 0 0 0
+o garis 248 80 243 79 3
+o warnatepi 0 0 0
+o garis 243 79 237 78 3
+o warnatepi 0 0 0
+o garis 237 78 233 77 3
+o warnatepi 0 0 0
+o garis 233 77 227 76 3
+o warnatepi 0 0 0
+o garis 227 76 220 76 3
+o warnatepi 0 0 0
+o garis 220 76 214 76 3
+o warnatepi 0 0 0
+o garis 214 76 207 76 3
+o warnatepi 0 0 0
+o garis 207 76 203 76 3
+o warnatepi 0 0 0
+o garis 203 76 196 76 3
+o warnatepi 0 0 0
+o garis 196 76 189 76 3
+o warnatepi 0 0 0
+o garis 189 76 182 76 3
+o warnatepi 0 0 0
+o garis 182 76 176 78 3
+o warnatepi 0 0 0
+o garis 176 78 167 79 3
+o warnatepi 0 0 0
+o garis 167 79 161 81 3
+o warnatepi 0 0 0
+o garis 161 81 154 84 3
+o warnatepi 0 0 0
+o garis 154 84 150 85 3
+o warnatepi 0 0 0
+o garis 150 85 144 89 3
+o warnatepi 0 0 0
+o garis 144 89 139 91 3
+o warnatepi 0 0 0
+o garis 139 91 136 93 3
+o warnatepi 0 0 0
+o garis 136 93 132 95 3
+o warnatepi 0 0 0
+o garis 132 95 128 98 3
+o warnatepi 0 0 0
+o garis 128 98 124 100 3
+o warnatepi 0 0 0
+o garis 124 100 121 103 3
+o warnatepi 0 0 0
+o garis 121 103 119 106 3
+o warnatepi 0 0 0
+o garis 119 106 116 109 3
+o warnatepi 0 0 0
+o garis 116 109 114 111 3
+o warnatepi 0 0 0
+o garis 114 111 112 114 3
+o warnatepi 0 0 0
+o garis 112 114 111 117 3
+o warnatepi 0 0 0
+o garis 111 117 109 119 3
+o warnatepi 0 0 0
+o garis 109 119 108 123 3
+o warnatepi 0 0 0
+o garis 108 123 108 125 3
+o warnatepi 0 0 0
+o garis 108 125 108 128 3
+o warnatepi 0 0 0
+o garis 108 128 108 131 3
+o warnatepi 0 0 0
+o garis 108 131 107 133 3
+o warnatepi 0 0 0
+o garis 107 133 107 136 3
+o warnatepi 0 0 0
+o garis 107 136 108 138 3
+o warnatepi 0 0 0
+o garis 108 138 108 141 3
+o warnatepi 0 0 0
+o garis 108 141 109 143 3
+o warnatepi 0 0 0
+o garis 109 143 110 145 3
+o warnatepi 0 0 0
+o garis 110 145 111 148 3
+o warnatepi 0 0 0
+o garis 111 148 112 150 3
+o warnatepi 0 0 0
+o garis 112 150 114 154 3
+o warnatepi 0 0 0
+o garis 114 154 116 156 3
+o warnatepi 0 0 0
+o garis 116 156 117 159 3
+o warnatepi 0 0 0
+o garis 117 159 119 160 3
+o warnatepi 0 0 0
+o garis 119 160 120 162 3
+o warnatepi 0 0 0
+o garis 120 162 122 163 3
+o warnatepi 0 0 0
+o garis 122 163 123 164 3
+o warnatepi 0 0 0
+o garis 123 164 125 165 3
+o warnatepi 0 0 0
+o garis 125 165 128 166 3
+o warnatepi 0 0 0
+o garis 128 166 130 166 3
+o warnatepi 0 0 0
+o garis 130 166 132 167 3
+o warnatepi 0 0 0
+o garis 132 167 134 167 3
+o warnatepi 0 0 0
+o garis 134 167 136 167 3
+o warnatepi 0 0 0
+o garis 136 167 139 167 3
+o warnatepi 0 0 0
+o garis 139 167 141 167 3
+o warnatepi 0 0 0
+o garis 141 167 143 167 3
+o warnatepi 0 0 0
+o garis 143 167 145 167 3
+o warnatepi 0 0 0
+o garis 145 167 148 167 3
+o warnatepi 0 0 0
+o garis 148 167 150 167 3
+o warnatepi 0 0 0
+o garis 150 167 151 166 3
+o warnatepi 0 0 0
+o garis 151 166 152 166 3
+o warnatepi 0 0 0
+o garis 152 166 154 165 3
+o warnatepi 0 0 0
+o garis 154 165 156 165 3
+o warnatepi 0 0 0
+o garis 156 165 157 165 3
+o warnatepi 0 0 0
+o garis 157 165 157 164 3
+o warnatepi 0 0 0
+o garis 157 164 158 164 3
+o warnatepi 0 0 0
+o garis 158 164 159 163 3
+o warnatepi 0 0 0
+o garis 159 163 160 162 3
+o warnatepi 0 0 0
+o garis 160 162 161 161 3
+o warnatepi 0 0 0
+o garis 161 161 161 161 3
+o warnatepi 0 0 0
+o garis 161 161 161 160 3
+o warnatepi 0 0 0
+o garis 161 160 161 160 3
+o warnatepi 0 0 0
+o garis 161 160 162 159 3
+o warnatepi 0 0 0
+o garis 162 159 162 158 3
+o warnatepi 0 0 0
+o garis 162 158 162 157 3
+o warnatepi 0 0 0
+o garis 162 157 162 156 3

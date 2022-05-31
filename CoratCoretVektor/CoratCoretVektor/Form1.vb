@@ -239,5 +239,23 @@ Public Class frmUtama
         TextBox1.Clear()
     End Sub
 
+    Private Sub SimpanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SimpanToolStripMenuItem.Click
+        If Not TextBox1.Text = "" Then
+            SaveFileDialog1.ShowDialog()
+            Dim location As String = SaveFileDialog1.FileName
+            My.Computer.FileSystem.WriteAllText(location & ".txt", TextBox1.Text.ToString, False)
+        Else
+            MsgBox("Tidak dapat menyimpan vektor kosong", MessageBoxButtons.OK + MessageBoxIcon.Error,
+      "Terjadi Kesalahan")
+        End If
 
+    End Sub
+
+    Private Sub BukaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BukaToolStripMenuItem.Click
+        If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+            TextBox1.Text = My.Computer.FileSystem.ReadAllText(OpenFileDialog1.FileName)
+            btnGambarUlang.PerformClick()
+        End If
+
+    End Sub
 End Class

@@ -11,3 +11,16 @@ C:\Users\Sindu\source\repos\CoratCoretVektor\CoratCoretVektor\bin\Debug\CoratCor
 C:\Users\Sindu\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.exe
 C:\Users\Sindu\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.xml
 C:\Users\Sindu\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.pdb
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\bin\Debug\CoratCoretVektor.exe.config
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\bin\Debug\CoratCoretVektor.exe
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\bin\Debug\CoratCoretVektor.pdb
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\bin\Debug\CoratCoretVektor.xml
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.vbproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.vbproj.SuggestedBindingRedirects.cache
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.frmUtama.resources
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.Resources.resources
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.vbproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.exe
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.xml
+C:\Users\lenovo\source\repos\CoratCoretVektor\CoratCoretVektor\obj\Debug\CoratCoretVektor.pdb
