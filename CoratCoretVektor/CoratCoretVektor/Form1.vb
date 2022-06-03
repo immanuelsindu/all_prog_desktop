@@ -10,6 +10,8 @@ Public Class frmUtama
     Dim titik As Point = Nothing
     Dim dipencet As Boolean = False
     Dim bmp As Bitmap
+    Dim stack As Stack = New Stack()
+    Dim stack2 As Stack = New Stack()
 
     Private Sub frmUtama_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnClear.PerformClick()
@@ -98,9 +100,12 @@ Public Class frmUtama
         PictureBox1.Invalidate()
         dipencet = False
         If (titik.X <> e.X And titik.Y <> e.Y) Then
-            TextBox1.AppendText("o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbNewLine)
-            TextBox1.AppendText("o " + "warnaisian" + " " + warnaisian.R.ToString + " " + warnaisian.G.ToString + " " + warnaisian.B.ToString & vbNewLine)
-            TextBox1.AppendText("o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString + " " + tepi.Width.ToString & vbNewLine)
+            Dim perintahGambar As String = ""
+            perintahGambar += "o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbNewLine
+            perintahGambar += "o " + "warnaisian" + " " + warnaisian.R.ToString + " " + warnaisian.G.ToString + " " + warnaisian.B.ToString & vbNewLine
+            perintahGambar += "o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString + " " + tepi.Width.ToString & vbNewLine
+            stack.Push(perintahGambar)
+            TextBox1.AppendText(stack.Peek())
         End If
     End Sub
 
@@ -237,6 +242,8 @@ Public Class frmUtama
     Private Sub BaruToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BaruToolStripMenuItem.Click
         btnClear.PerformClick()
         TextBox1.Clear()
+        stack.Clear()
+
     End Sub
 
     Private Sub SimpanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SimpanToolStripMenuItem.Click
@@ -257,5 +264,36 @@ Public Class frmUtama
             btnGambarUlang.PerformClick()
         End If
 
+    End Sub
+
+    Private Sub btnUndo_Click(sender As Object, e As EventArgs) Handles btnUndo.Click
+        If TextBox1.Text = String.Empty Then
+            MsgBox("Tidak dapat melakukan Undo karena tidak ada aksi sebelumnya", MessageBoxButtons.OK + MessageBoxIcon.Error,
+    "Terjadi Kesalahan")
+        Else
+            Try
+                stack.Pop()
+                TextBox1.Clear()
+                btnClear.PerformClick()
+
+                While stack.Count > 0
+                    TextBox1.AppendText(stack.Peek())
+                    stack2.Push(stack.Peek())
+                    stack.Pop()
+                End While
+
+                While stack2.Count > 0
+                    stack.Push(stack2.Peek())
+                    stack2.Pop()
+                End While
+
+                If Not TextBox1.Text = String.Empty Then
+                    btnGambarUlang.PerformClick()
+                End If
+            Catch ex As Exception
+                MsgBox("Tidak bisa melakukan Undo Mode bebas", MessageBoxButtons.OK + MessageBoxIcon.Error,
+   "Terjadi Kesalahan")
+            End Try
+        End If
     End Sub
 End Class
