@@ -209,7 +209,7 @@ Partial Class frmUtama
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(813, 81)
+        Me.GroupBox2.Size = New System.Drawing.Size(846, 81)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Warna"
@@ -302,11 +302,11 @@ Partial Class frmUtama
         '
         Me.GroupBox3.Controls.Add(Me.TextBox1)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.GroupBox3.Location = New System.Drawing.Point(752, 28)
+        Me.GroupBox3.Location = New System.Drawing.Point(768, 28)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(212, 389)
+        Me.GroupBox3.Size = New System.Drawing.Size(229, 389)
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Objek"
@@ -319,7 +319,7 @@ Partial Class frmUtama
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox1.Size = New System.Drawing.Size(204, 366)
+        Me.TextBox1.Size = New System.Drawing.Size(221, 366)
         Me.TextBox1.TabIndex = 0
         '
         'MenuStrip1
@@ -328,7 +328,7 @@ Partial Class frmUtama
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.KeluarToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(964, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(997, 28)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -370,7 +370,7 @@ Partial Class frmUtama
         Me.PictureBox1.Location = New System.Drawing.Point(151, 28)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(601, 389)
+        Me.PictureBox1.Size = New System.Drawing.Size(617, 389)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
@@ -386,7 +386,7 @@ Partial Class frmUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(964, 498)
+        Me.ClientSize = New System.Drawing.Size(997, 498)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
